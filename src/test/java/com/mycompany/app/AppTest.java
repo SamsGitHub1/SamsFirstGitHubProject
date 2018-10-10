@@ -39,6 +39,12 @@ public class AppTest
             fail("\"message\" is not \"Hello World!\"");
         }
     }
+    
+    @Test
+    public void Test3()
+    {
+        System.out.println("This is my Test 3");
+    }
 
     @After
     public void cleanUpStreams() {
